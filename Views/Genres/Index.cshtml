@@ -11,7 +11,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-@using (Html.BeginForm("Index", "Genre", FormMethod.Get))
+@using (Html.BeginForm("Index", "Genres", FormMethod.Get))
 {
     <p>
         Find by genre name: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)

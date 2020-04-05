@@ -10,7 +10,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-@using (Html.BeginForm("Index", "Artist", FormMethod.Get))
+@using (Html.BeginForm("Index", "Artists", FormMethod.Get))
 {
     <p>
         Find by genre name: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)
